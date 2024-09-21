@@ -1,5 +1,5 @@
 """
-ASGI config for devduo project.
+ASGI config for DevDuo project.
 
 It exposes the ASGI callable as a module-level variable named ``application``.
 
