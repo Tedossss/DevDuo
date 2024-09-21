@@ -1,0 +1,122 @@
+body {
+    background: #2c2c2c;
+}
+
+aside {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: #181818;
+    width: 20%;
+    height: 100vh;
+    padding: 2.5%;
+    color: #fff;
+    border-right: 5px solid #4d4d4d;
+    box-sizing: border-box;
+}
+
+aside img {
+    width: 80px;
+    float: left;
+}
+aside .logo {
+    font-size:40px;
+    margin-left: 90px;
+    font-weight: bold;
+    position: relative;
+    top: -70px;
+}
+
+aside h3: {
+    margin-top: 30px;
+    font-size: 40px;
+}
+
+aside ul {list-style: none}
+aside ul li {
+    color: #fff;
+    display: block;
+    margin-top: 20px;
+    transition: transform .6s ease;
+}
+
+aside ul li:hover, aside ul a:hover {
+    color: #eb5959;
+    text-decoration: none;
+    transform: scale(1.05);
+}
+
+main .features {
+    margin-left: 25%;
+    color: #fff;
+    margin-top: 100px;
+    text-align: center;
+    width: 70%;
+}
+
+main .features h1 {font-size: 50px;}
+main .features p {max-width: 400px; margin: 20px auto;}
+
+.alert-warning {
+    float: left;
+    clear: both;
+    width: 400px;
+    margin: 20px 34%;
+    text-align: left;
+}
+
+form {
+    margin-left: 28%;
+    width: 500px;
+    margin-top: 50px;
+}
+
+        #team {
+            display: flex;
+            justify-content: space-around;
+            padding: 20px;
+            margin-left: 25%;
+        }
+
+        .member {
+            background-color: #50575e;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 40%;
+            margin: 10px;
+        }
+
+
+        .member img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+
+
+        .member h2 {
+            color: #2c2c2c;
+        }
+
+        .skills {
+            text-align: left;
+            margin-top: 10px;
+        }
+
+        .skills ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .skills li {
+            background-color: #f0f0f0;
+            margin: 5px 0;
+            padding: 5px;
+            border-radius: 5px;
+        }
+
+        .tuxt {
+            color: white;
+        }

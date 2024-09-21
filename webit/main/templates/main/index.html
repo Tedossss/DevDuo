@@ -1,0 +1,11 @@
+{% extends 'main/layout.html' %}
+
+{% block title %}головна сторінка{% endblock %}
+
+{% block content %}
+    <div class="features">
+        <h1>{{ title }}</h1>
+        <p>Привіт!, ми команда молодих програмістів DevDuo, на цьому сайті ви можете найти інформацію про нас, контактні дані та наш прогрес в цій професії, Дякую що завітали до нас!</p>
+        <a href="{% url 'about' %}"><button class="btn btn-danger"> Про нас </button></a>
+    </div>
+{% endblock %}
