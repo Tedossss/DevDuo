@@ -7206,7 +7206,7 @@
               {
                 "physicalLocation": {
                   "artifactLocation": {
-                    "uri": "webit/main/models.py",
+                    "uri": "DevDuo/main/models.py",
                     "uriBaseId": "SRCROOT"
                   },
                   "region": {
@@ -7259,7 +7259,7 @@
               {
                 "physicalLocation": {
                   "artifactLocation": {
-                    "uri": "webit/news/tests.py",
+                    "uri": "DevDuo/news/tests.py",
                     "uriBaseId": "SRCROOT"
                   },
                   "region": {
@@ -7312,7 +7312,7 @@
               {
                 "physicalLocation": {
                   "artifactLocation": {
-                    "uri": "webit/main/admin.py",
+                    "uri": "DevDuo/main/admin.py",
                     "uriBaseId": "SRCROOT"
                   },
                   "region": {
@@ -7365,7 +7365,7 @@
               {
                 "physicalLocation": {
                   "artifactLocation": {
-                    "uri": "webit/main/tests.py",
+                    "uri": "DevDuo/main/tests.py",
                     "uriBaseId": "SRCROOT"
                   },
                   "region": {
@@ -7418,7 +7418,7 @@
               {
                 "physicalLocation": {
                   "artifactLocation": {
-                    "uri": "webit/webit/settings.py",
+                    "uri": "DevDuo/DevDuo/settings.py",
                     "uriBaseId": "SRCROOT"
                   },
                   "region": {
@@ -7471,7 +7471,7 @@
               {
                 "physicalLocation": {
                   "artifactLocation": {
-                    "uri": "webit/main/views.py",
+                    "uri": "DevDuo/main/views.py",
                     "uriBaseId": "SRCROOT"
                   },
                   "region": {
