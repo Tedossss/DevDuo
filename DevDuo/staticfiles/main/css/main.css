@@ -1,4 +1,4 @@
-body {
+    body {
     background: #2c2c2c;
 }
 
@@ -119,4 +119,27 @@ form {
 
         .tuxt {
             color: white;
+        }
+        .roma.pidor::after {
+            content: "";
+            background: #fff;
+            height: 2px;
+            width: 100%;
+            position: absolute;
+            bottom: -8px;
+            left: 0;
+            transform: scaleX(0);
+            transition: all .25s ease;
+        }
+        
+
+
+        .roma.pidor:hover{
+            color: #fff;
+        }
+
+
+        .roma.pidor:hover::after{
+            transform: scaleX(1);
+
         }
