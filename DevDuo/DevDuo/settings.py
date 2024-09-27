@@ -27,7 +27,7 @@ SECRET_KEY = 'django-insecure-^l78)1+6y2u#r%sm6v2+^$rtxukt^c6e_rkfh*e(0c=skmk)gx
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['devduo.onrender.com']
+ALLOWED_HOSTS = ['devduo.onrender.com', '127.0.0.1:8000', '127.0.0.1']
 
 
 # Application definition
@@ -123,7 +123,7 @@ STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 
 STATICFILES_DIRS = [
-    os.path.join(BASE_DIR, 'statiс')
+    os.path.join(BASE_DIR, 'static')
 ]
 
 # Default primary key field type
