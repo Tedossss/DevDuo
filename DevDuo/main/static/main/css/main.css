@@ -74,7 +74,7 @@ aside h3: {
 aside ul {list-style: none}
 aside ul li{
     color: #fff;
-    /* display: block; */
+    display: block;
     margin-top: 20px;
     transition: transform .6s ease;
 }
@@ -82,7 +82,7 @@ aside ul li{
 
 .roma-pidor,btn btn-info{
     color: #fff;
-    /* display: block; */
+    display: block;
     margin-top: 20px;
     transition: transform .6s ease;
 }
