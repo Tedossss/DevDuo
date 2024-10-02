@@ -1,4 +1,4 @@
-    body {
+body {
     background: #2c2c2c;
 }
 
@@ -15,37 +15,82 @@ aside {
     box-sizing: border-box;
 }
 
+/* Очищення маркерів списку */
+aside ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+aside ul li {
+    margin-top: 20px;
+    position: relative;
+    transition: transform 0.6s ease;
+}
+
+/* Стилі для посилань */
+aside ul li a {
+    color: #fff;
+    text-decoration: none;
+    display: block; /* Забезпечує, що весь блок клікабельний */
+    padding: 10px;
+    transition: color 0.3s ease;
+    position: relative;
+}
+
+/* Додатковий клас для стилізації підкреслення */
+.roma-pidor::after {
+    content: "";
+    background: #dc3545; /* Колір підкреслення */
+    height: 2px; /* Товщина лінії */
+    width: 100%;
+    position: absolute;
+    bottom: -2px; /* Відступ лінії від тексту */
+    left: 0;
+    transform: scaleX(0);
+    transition: transform 0.25s ease;
+    transform-origin: right; /* Лінія з'являється з правого боку */
+}
+
+/* Зміна кольору і додавання підкреслення при наведенні */
+aside ul li:hover a {
+    color: #eb5959;
+}
+
+aside ul li a:hover::after {
+    transform: scaleX(1); /* Плавне з'явлення лінії під текстом */
+    transform-origin: left; /* Лінія розширюється з лівого боку */
+}
+
+/* Анімація збільшення при наведенні */
+aside ul li:hover {
+    transform: scale(1.05); /* Збільшення елементу меню */
+}
+
+/* Стилі для іконок (якщо вони використовуються) */
+aside ul li a i {
+    margin-right: 10px;
+    transition: color 0.3s ease;
+}
+
+aside ul li:hover i {
+    color: #eb5959;
+}
+
+/* Стилі для зображення та логотипу */
 aside img {
     width: 80px;
     float: left;
 }
+
 aside .logo {
-    font-size:40px;
+    font-size: 40px;
     margin-left: 90px;
     font-weight: bold;
     position: relative;
     top: -70px;
 }
 
-aside h3: {
-    margin-top: 30px;
-    font-size: 40px;
-}
-
-aside ul {list-style: none}
-aside ul li {
-    color: #fff;
-    display: block;
-    margin-top: 20px;
-    transition: transform .6s ease;
-}
-
-aside ul li:hover, aside ul a:hover {
-    color: #eb5959;
-    text-decoration: none;
-    transform: scale(1.05);
-}
-
+/* Інші стилі */
 main .features {
     margin-left: 25%;
     color: #fff;
@@ -54,8 +99,14 @@ main .features {
     width: 70%;
 }
 
-main .features h1 {font-size: 50px;}
-main .features p {max-width: 400px; margin: 20px auto;}
+main .features h1 {
+    font-size: 50px;
+}
+
+main .features p {
+    max-width: 400px;
+    margin: 20px auto;
+}
 
 .alert-warning {
     float: left;
@@ -71,75 +122,50 @@ form {
     margin-top: 50px;
 }
 
-        #team {
-            display: flex;
-            justify-content: space-around;
-            padding: 20px;
-            margin-left: 25%;
-        }
+#team {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    margin-left: 25%;
+}
 
-        .member {
-            background-color: #50575e;
-            padding: 20px;
-            border-radius: 10px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            width: 40%;
-            margin: 10px;
-        }
+.member {
+    background-color: #50575e;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 40%;
+    margin: 10px;
+}
 
+.member img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
 
-        .member img {
-            width: 150px;
-            height: 150px;
-            border-radius: 50%;
-            object-fit: cover;
-        }
+.member h2 {
+    color: #2c2c2c;
+}
 
+.skills {
+    text-align: left;
+    margin-top: 10px;
+}
 
-        .member h2 {
-            color: #2c2c2c;
-        }
+.skills ul {
+    list-style-type: none;
+    padding: 0;
+}
 
-        .skills {
-            text-align: left;
-            margin-top: 10px;
-        }
+.skills li {
+    background-color: #f0f0f0;
+    margin: 5px 0;
+    padding: 5px;
+    border-radius: 5px;
+}
 
-        .skills ul {
-            list-style-type: none;
-            padding: 0;
-        }
-
-        .skills li {
-            background-color: #f0f0f0;
-            margin: 5px 0;
-            padding: 5px;
-            border-radius: 5px;
-        }
-
-        .tuxt {
-            color: white;
-        }
-        .roma.pidor::after {
-            content: "";
-            background: #fff;
-            height: 2px;
-            width: 100%;
-            position: absolute;
-            bottom: -8px;
-            left: 0;
-            transform: scaleX(0);
-            transition: all .25s ease;
-        }
-        
-
-
-        .roma.pidor:hover{
-            color: #fff;
-        }
-
-
-        .roma.pidor:hover::after{
-            transform: scaleX(1);
-
-        }
+.text {
+    color: white;
+}
