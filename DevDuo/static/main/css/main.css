@@ -31,7 +31,6 @@ aside ul li {
 aside ul li a {
     color: #fff;
     text-decoration: none;
-    display: block; /* Забезпечує, що весь блок клікабельний */
     padding: 10px;
     transition: color 0.3s ease;
     position: relative;
